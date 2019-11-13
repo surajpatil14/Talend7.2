@@ -79,6 +79,11 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>facebook-messenger-1.0.0</artifactId>
+      <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>job-audit</artifactId>
       <version>1.0</version>
     </dependency>
@@ -106,16 +111,6 @@
       <groupId>org.talend.daikon</groupId>
       <artifactId>logging-event-layout</artifactId>
       <version>0.31.8</version>
-    </dependency>
-    <dependency>
-      <groupId>com.oracle.jdbc</groupId>
-      <artifactId>ojdbc8</artifactId>
-      <version>12.2.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>pgp_decryptfiles_hybris_decrypt_0_1</artifactId>
-      <version>6.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
