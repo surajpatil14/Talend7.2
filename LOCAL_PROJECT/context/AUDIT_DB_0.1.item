@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Debug" xmi:id="_35Gb0AwgEeqH95Jy-owf9Q">
+    <contextParameter comment="" name="AUDIT_JDBC_JdbcUrl" prompt="AUDIT_JDBC_JdbcUrl?" promptNeeded="true" type="id_String" value="jdbc:oracle:thin:@//invmdw01:1521/invmdw01" xmi:id="_35Gb0QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_MappingFile" prompt="AUDIT_JDBC_MappingFile?" promptNeeded="false" type="id_String" value="oracle_id" xmi:id="_35Gb0gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_Password" prompt="AUDIT_JDBC_Password?" promptNeeded="true" type="id_Password" value="Rj8u4LFNgNCL9hgqJxsgDA==" xmi:id="_35Gb0wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_ClassName" prompt="AUDIT_JDBC_ClassName?" promptNeeded="false" type="id_String" value="oracle.jdbc.OracleDriver" xmi:id="_35Gb1AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_DriverJar" prompt="AUDIT_JDBC_DriverJar?" promptNeeded="false" type="id_String" value="&quot;mvn:org.talend.libraries/ojdbc7/6.0.0/jar&quot;" xmi:id="_35Gb1QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_Login" prompt="AUDIT_JDBC_Login?" promptNeeded="true" type="id_String" value="GCSURAJ87_STAGE" xmi:id="_35Gb1gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDT_JDBC_TmapDir" prompt="AUDT_JDBC_TmapDir?" promptNeeded="false" type="id_Directory" value="Temp" xmi:id="_35Gb1wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_From" prompt="Email_From?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb2AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_CC" prompt="Email_CC?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb2QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Bcc" prompt="Email_Bcc?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb2gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_SenderName" prompt="Email_SenderName?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb2wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb3AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb3QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Host" prompt="Email_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb3gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb3wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Threads" prompt="Threads?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_35Gb4AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="DOP" prompt="DOP?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_35Gb4QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="MINSCN" prompt="MINSCN?" promptNeeded="true" type="id_BigDecimal" value="0" xmi:id="_35Gb4gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="MAXSCN" prompt="MAXSCN?" promptNeeded="true" type="id_BigDecimal" value="1" xmi:id="_35Gb4wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="BatchSize" prompt="BatchSize?" promptNeeded="false" type="id_BigDecimal" value="25000" xmi:id="_35Gb5AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="SCNLIMIT" prompt="SCNLIMIT?" promptNeeded="false" type="id_BigDecimal" value="1000000" xmi:id="_35Gb5QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="InitJob" prompt="InitJob?" promptNeeded="true" type="id_Boolean" value="" xmi:id="_35Gb5gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="RealTime" prompt="RealTime?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_35Gb5wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="STARTSCN" prompt="STARTSCN?" promptNeeded="false" type="id_BigDecimal" value="" xmi:id="_35Gb6AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="REC_COUNT" prompt="REC_COUNT?" promptNeeded="false" type="id_Integer" value="100" xmi:id="_35Gb6QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb6gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Target_Rec_Count" prompt="Target_Rec_Count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_35Gb6wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="FilePath" prompt="FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb7AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Start_Date" prompt="Start_Date?" promptNeeded="false" type="id_Date" value="9999-12-31 00:00:00" xmi:id="_35Gb7QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="FAILED_RECORDS" prompt="FAILED_RECORDS?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_35Gb7gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="EnableDataSync" prompt="EnableDataSync?" promptNeeded="false" type="id_String" value="Y" xmi:id="_35Gb7wwgEeqH95Jy-owf9Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_35Gb8AwgEeqH95Jy-owf9Q">
+    <contextParameter comment="" name="AUDIT_JDBC_JdbcUrl" prompt="AUDIT_JDBC_JdbcUrl?" promptNeeded="false" type="id_String" value="jdbc:oracle:thin:@//invmdw01:1521/invmdw01" xmi:id="_35Gb8QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_MappingFile" prompt="AUDIT_JDBC_MappingFile?" promptNeeded="false" type="id_String" value="oracle_id" xmi:id="_35Gb8gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_Password" prompt="AUDIT_JDBC_Password?" promptNeeded="false" type="id_Password" value="Rj8u4LFNgNCL9hgqJxsgDA==" xmi:id="_35Gb8wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_ClassName" prompt="AUDIT_JDBC_ClassName?" promptNeeded="false" type="id_String" value="oracle.jdbc.OracleDriver" xmi:id="_35Gb9AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_DriverJar" prompt="AUDIT_JDBC_DriverJar?" promptNeeded="false" type="id_String" value="&quot;mvn:org.talend.libraries/ojdbc7/6.0.0/jar&quot;" xmi:id="_35Gb9QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDIT_JDBC_Login" prompt="AUDIT_JDBC_Login?" promptNeeded="false" type="id_String" value="GCSURAJ87_STAGE" xmi:id="_35Gb9gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="AUDT_JDBC_TmapDir" prompt="AUDT_JDBC_TmapDir?" promptNeeded="false" type="id_Directory" value="Temp" xmi:id="_35Gb9wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_From" prompt="Email_From?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb-AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_CC" prompt="Email_CC?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb-QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Bcc" prompt="Email_Bcc?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb-gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_SenderName" prompt="Email_SenderName?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb-wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb_AwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb_QwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Host" prompt="Email_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb_gwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_35Gb_wwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Threads" prompt="Threads?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_35GcAAwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="DOP" prompt="DOP?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_35GcAQwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="MINSCN" prompt="MINSCN?" promptNeeded="false" type="id_BigDecimal" value="" xmi:id="_35GcAgwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="MAXSCN" prompt="MAXSCN?" promptNeeded="false" type="id_BigDecimal" value="" xmi:id="_35GcAwwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="BatchSize" prompt="BatchSize?" promptNeeded="false" type="id_BigDecimal" value="10000" xmi:id="_35GcBAwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="SCNLIMIT" prompt="SCNLIMIT?" promptNeeded="false" type="id_BigDecimal" value="" xmi:id="_35GcBQwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="InitJob" prompt="InitJob?" promptNeeded="false" type="id_Boolean" value="true" xmi:id="_35GcBgwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="RealTime" prompt="RealTime?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_35GcBwwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="STARTSCN" prompt="STARTSCN?" promptNeeded="false" type="id_BigDecimal" value="0" xmi:id="_35GcCAwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="REC_COUNT" prompt="REC_COUNT?" promptNeeded="false" type="id_Integer" value="" xmi:id="_35GcCQwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_35GcCgwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Target_Rec_Count" prompt="Target_Rec_Count?" promptNeeded="false" type="id_Integer" value="" xmi:id="_35GcCwwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="FilePath" prompt="FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_35GcDAwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="Start_Date" prompt="Start_Date?" promptNeeded="false" type="id_Date" value="" xmi:id="_35GcDQwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="FAILED_RECORDS" prompt="FAILED_RECORDS?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_35GcDgwgEeqH95Jy-owf9Q"/>
+    <contextParameter comment="" name="EnableDataSync" prompt="EnableDataSync?" promptNeeded="false" type="id_String" value="Y" xmi:id="_35GcDwwgEeqH95Jy-owf9Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_95812be4-add5-4422-a2a4-63ecc6c3aa4e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VT5UDFMkTyx25yWQufAJraXUoMZHQwAUtjzflh+TI4Fj0aUz3W+09ET1QSrvYa6UM2DEONOg7WJw
+BqsTFk7pWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2cd46668-8efc-48b5-bb39-af0b79797b6d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>K/wd1MA/8e/pLXbda8I38fv8gSjTZb24HrGOJpgOHZZf4FJbLZJS3WgsTfuLCV93RpFJFARO9oig
+3ljleKfcsA==</DigestValue></Reference></SignedInfo><SignatureValue>PDB1Z+0+llkh/UU3O1jsKFyHhfqimAfH3iHAcurD2aHCilcZbXaWaqebx4yAVUPf/yUwGqYn8aRP
+wAgz7jQXEFdHZftrYGdoWBSVnQBTUmu6T+Q1afVu4ULGERt8EdhxWcwXrkX1SfjfbLErQysKE6iH
+eUwaZ22PbiSbifbp0uEJ16gcdxN7CLFS62sItTnOcgUQ7uLLbonZ32rv1jS3MLBHtEEWMYl8qEGV
+XVy/8bTO/bVpSjc3mFn23/pptlC30bcYPZJ/gyyKlYBLTvV3wOXlURfqA5gtuX9ipX0xdAu7QCUW
+tkzHP/T7+fNIJtLbhDaWFNmEDaUW+cwH9BuPrw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2cd46668-8efc-48b5-bb39-af0b79797b6d" Target="#_95812be4-add5-4422-a2a4-63ecc6c3aa4e"><Timestamp>2019-11-21 05:36:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
