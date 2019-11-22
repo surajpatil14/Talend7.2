@@ -14,6 +14,7 @@
     <module>jobs/process/Case_00157502/Post_Jobs/Oracle/post_wisu_job_oracle_forupgrademinimal_0.1</module>
     <module>jobs/process/Case_00157502/Post_Jobs/Oracle/post_wisu_job_oracle_0.1</module>
     <module>jobs/process/Case_00157502/Post_Jobs/Oracle/my_test_job_0.1</module>
+    <module>code/beans</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
